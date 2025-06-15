@@ -4,6 +4,7 @@ import Card, { TProduct } from "../../cards/Card";
 import Link from "next/link";
 
 const OurProducts: React.FC = () => {
+  const slicedProductData = productData.slice(0, 8);
   return (
     <div className="flex flex-col items-center justify-center">
       <div className="mt-14 max-w-[1236px] mx-auto">
@@ -11,7 +12,7 @@ const OurProducts: React.FC = () => {
           Our Products
         </h1>
         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          {(productData as TProduct[]).map((product) => (
+          {(slicedProductData as TProduct[]).map((product) => (
             <Card key={product.id} TProduct={product}></Card>
           ))}
         </div>
