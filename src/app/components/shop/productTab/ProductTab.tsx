@@ -17,7 +17,7 @@ const ProductTab = ({ id }: ProductTabProps) => {
 
   return (
     <div className="pb-10">
-      <div className="pt-10 border-t-[1px] border-gray-300 min-h-[490px]">
+      <div className="pt-10 border-t-[1px] border-gray-300 min-h-[290px] md:min-h-[490px]">
         {/* Tabs */}
         <div className="flex gap-6 pb-6 items-center justify-center">
           {productTab.tabs.map((tab) => (
@@ -70,15 +70,15 @@ const ProductTab = ({ id }: ProductTabProps) => {
 
                   {/* Show content images if exist */}
                   {active.img && active.img.length > 0 && (
-                    <div className="grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-4 px-2 md:px-5 lg:px-0">
+                    <div className="grid grid-cols-2 max-w-6xl mx-auto gap-4 px-2 md:px-5 lg:px-0">
                       {active.img.map((img, index) => (
                         <Image
                           width={600}
-                          height={30}
+                          height={300}
                           key={index}
                           src={img}
                           alt={`description image ${index + 1}`}
-                          className="h-[300px]  rounded-md shadow mt-2 "
+                          className="h-[100px] w-[300px] md:w-[600px] md:h-[300px]   rounded-md shadow mt-2 "
                         />
                       ))}
                     </div>

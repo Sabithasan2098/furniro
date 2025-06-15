@@ -14,14 +14,14 @@ const RelatedProduct = ({ category }: TCategory) => {
         <h2 className="text-center text-[28px] lg:text-[36px] font-medium pb-5 md:pb-10 lg-pb-14">
           Related Product
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
           {(data as TProduct[])?.map((data) => {
             return <Card key={data.id} TProduct={data}></Card>;
           })}
         </div>
         <div className="text-center">
           <Link href={"/shop"}>
-            <button className="text-[#b98e2f] font-semibold text-[16px] border border-[#b98e2f] px-20 py-3 mt-10 cursor-pointer hover:bg-[#b98e2f] hover:text-white transition duration-300">
+            <button className="text-[#b98e2f] font-semibold text-sm md:text-[16px] border border-[#b98e2f] px-5 md:px-20 py-1 md:py-3 mt-10 cursor-pointer hover:bg-[#b98e2f] hover:text-white transition duration-300">
               Show More
             </button>
           </Link>

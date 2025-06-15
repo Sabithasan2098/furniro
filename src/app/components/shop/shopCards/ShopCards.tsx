@@ -9,7 +9,7 @@ const ShopCards: React.FC = () => {
   const buttons = ["1", "2", "3", "Next"];
   return (
     <div className="flex flex-col items-center justify-center mt-6 md:mt-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto ">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto ">
         {(cardData as TProduct[]).map((data) => (
           <Card key={data.id} TProduct={data}></Card>
         ))}

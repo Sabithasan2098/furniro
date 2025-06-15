@@ -63,28 +63,33 @@ const CartData = () => {
           </table>
         </div>
       </div>
-      <div className="md:basis-1/3 w-full bg-[#f9f0e7] flex flex-col items-center pt-2 pb-16 md:pb-24">
-        <h2 className="text-[24px] md:text-[32px] font-semibold ">
-          Cart Totals
-        </h2>
-        <div className="flex gap-16 items-center pt-6 md:pt-14">
-          <p className="text-[16px] font-medium">Subtotal</p>
-          <p className="text-[16px] text-[#9f9f9f]">
-            Rs.{total.toLocaleString()}.000
-          </p>
-        </div>
+      <div className="md:basis-1/3 w-full bg-[#f9f0e7] pt-2 pb-10 md:pb-24 flex flex-col items-center">
+        <div className="flex flex-col md:items-center max-w-[200px] md:max-w-2xl mx-auto">
+          <h2 className="text-[20px] md:text-[32px] font-semibold text-center">
+            Cart Totals
+          </h2>
+          <div className="flex gap-16 items-center pt-4 md:pt-14 ">
+            <p className="text-xs md:text-[16px] font-normal md:font-medium">
+              Subtotal
+            </p>
+            <p className="text-xs text-[16px] text-[#9f9f9f]">
+              Rs.{total.toLocaleString()}.000
+            </p>
+          </div>
 
-        <div className="flex gap-16 items-center pt-4 md:pt-6 pb-6 md:pb-12">
-          <p className="text-[16px] font-medium">Total</p>
-          <p className="font-medium text-[20px] text-[#b89028]">
-            Rs.{total.toLocaleString()}.000
-          </p>
+          <div className="flex gap-16 items-center pt-2 md:pt-6 pb-3 md:pb-12 ">
+            <p className="text-xs md:text-[16px] font-normal md:font-medium ">
+              Total
+            </p>
+            <p className="font-medium text-sm md:text-[20px] text-[#b89028]">
+              Rs.{total.toLocaleString()}.000
+            </p>
+          </div>
         </div>
-        <Link
-          href={"/checkOut"}
-          className="border-[1.5px] rounded-xl px-12 py-2 text-[20px]"
-        >
-          Check Out
+        <Link href={"/checkOut"}>
+          <button className="border-[1.5px] rounded-md md:rounded-xl px-8 md:px-12 py-2 text-sm md:text-[20px]">
+            Check Out
+          </button>
         </Link>
       </div>
     </div>

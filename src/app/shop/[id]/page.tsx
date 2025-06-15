@@ -41,18 +41,18 @@ const ProductDetail = () => {
         <p className="font-medium">{product?.title}</p>
       </div>
       {/* card-details */}
-      <div className="flex flex-col md:flex-row gap-10 lg:gap-20 px-6 py-12 ">
+      <div className="flex flex-col md:flex-row gap-3 md:gap-10 lg:gap-20 px-6 py-12 ">
         {/* Image Gallery */}
-        <div className="flex gap-4">
-          <div className="flex flex-col gap-4">
+        <div className="flex flex-col-reverse md:flex-row gap-4">
+          <div className="flex flex-row md:flex-col gap-4">
             {product?.img.map((img, idx) => (
               <Image
                 key={idx}
                 src={img}
                 alt={`Thumbnail ${idx}`}
-                width={60}
-                height={60}
-                className="rounded cursor-pointer border border-gray-300"
+                width={30}
+                height={30}
+                className="rounded cursor-pointer border border-gray-300 md:h-[60px] md:w-[60px]"
                 onClick={() => setSelectedImage(img)}
               />
             ))}
@@ -61,43 +61,45 @@ const ProductDetail = () => {
             <Image
               src={selectedImage}
               alt="Product"
-              width={400}
-              height={400}
-              className="rounded object-cover"
+              width={120}
+              height={120}
+              className="rounded object-cover  md:h-[400px] md:w-[400px] "
             />
           </div>
         </div>
 
         {/* Product Details */}
         <div className="flex-1">
-          <h2 className="text-[42px] mb-2">{product?.title}</h2>
-          <p className="text-2xl font-medium text-[#a39e9a] mb-4">
+          <h2 className="text-[28px] md:text-[42px] mb-1 md:mb-2">
+            {product?.title}
+          </h2>
+          <p className="text-lg md:text-2xl font-medium text-[#a39e9a] mb-2 md:mb-4">
             Rs. {product?.currentPrice}
           </p>
 
           {/* Rating */}
           <div className="flex items-center gap-2 mb-4">
-            <span className="text-xl text-[#ffc503]">
+            <span className="text-sm md:text-xl text-[#ffc503]">
               {"★".repeat(Math.floor(product?.rating as number))}
             </span>
-            <span className="text-[13px] text-gray-500">
+            <span className="text-[10px] md:text-[13px] text-gray-500">
               | {product?.reviewCount} Customer Review
             </span>
           </div>
 
-          <p className=" text-[13px] text-gray-700 mb-6 max-w-[424px]">
+          <p className="text-[10px] md:text-[13px] text-gray-700 mb-3 md:mb-6 max-w-[424px]">
             {product?.longDesc}
           </p>
 
           {/* Size */}
-          <div className="mb-4">
-            <p className="text-gray-700 mb-1">Size</p>
+          <div className="mb-2 md:mb-4">
+            <p className="text-xs md:text-base text-gray-700 mb-1">Size</p>
             <div className="flex gap-2">
               {product?.sizes.map((size) => (
                 <button
                   key={size}
                   onClick={() => setSelectedSize(size)}
-                  className={` h-[30px] w-[30px] rounded transition-colors duration-200 ${
+                  className={`h-[20px] md:h-[30px] w-[20px] md:w-[30px] text-xs md:text-base rounded transition-colors duration-200 ${
                     selectedSize === size
                       ? "bg-[#ba8d32] text-white"
                       : " bg-[#f9f0e7] text-black"
@@ -110,7 +112,7 @@ const ProductDetail = () => {
           </div>
 
           {/* Color */}
-          <div className="mb-6">
+          <div className="mb-3 md:mb-6">
             <p className="text-gray-700 mb-1">Color</p>
             <div className="flex gap-4">
               {product?.colors.map((color) => (

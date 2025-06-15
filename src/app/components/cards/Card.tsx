@@ -25,7 +25,7 @@ type TProductProps = {
 };
 const Card: React.FC<TProductProps> = ({ TProduct }) => {
   return (
-    <div className="relative w-72  overflow-hidden shadow-lg group bg-white">
+    <div className="relative w-40 md:w-72  overflow-hidden shadow-lg group bg-white">
       <div>
         <Link href={`/shop/${TProduct.id}`} className="block lg:hidden">
           <Image
@@ -33,7 +33,7 @@ const Card: React.FC<TProductProps> = ({ TProduct }) => {
             alt="product_image"
             width={285}
             height={301}
-            className="w-full h-80 object-cover group-hover:brightness-50 transition duration-300 relative"
+            className="w-full h-40 md:h-80 object-cover group-hover:brightness-50 transition duration-300 relative"
           />
         </Link>
         <Image
@@ -41,7 +41,7 @@ const Card: React.FC<TProductProps> = ({ TProduct }) => {
           alt="product_image"
           width={285}
           height={301}
-          className="w-full h-80 object-cover group-hover:brightness-50 transition duration-300 relative hidden lg:block"
+          className="w-full h-40 md:h-80 object-cover group-hover:brightness-50 transition duration-300 relative hidden lg:block"
         />
         <div className="absolute top-2 right-4 ">
           {TProduct.badge === "New" && (
@@ -73,17 +73,19 @@ const Card: React.FC<TProductProps> = ({ TProduct }) => {
           <span className="cursor-pointer">❤️ Like</span>
         </div>
       </div>
-      <div className="text-start pl-3 pt-3 pb-4">
-        <h3 className="text-[20px] md:text-[24px] font-semibold text-[#3a3a3a]">
+      <div className="text-start pl-3 pt-1 md:pt-3 pb-0 md:pb-4">
+        <h3 className="text-[18px] md:text-[24px] font-semibold text-[#3a3a3a]">
           {TProduct.title}
         </h3>
-        <h5 className="text-[#898989] text-[16px] py-1">{TProduct.desc}</h5>
-        <div className="flex justify-between items-center pb-4">
-          <p className="text-[17px] md:text-[20px] font-semibold text-[#3a3a3a]">
+        <h5 className="text-[#898989] text-[10px] md:text-[16px] py-1">
+          {TProduct.desc}
+        </h5>
+        <div className="flex justify-between items-center pb-3 md:pb-4">
+          <p className="text-[10px] md:text-[20px] font-semibold text-[#3a3a3a]">
             Rp{TProduct.currentPrice}
           </p>
           {TProduct.beforePrice !== "" ? (
-            <p className="pr-3 text-[12px] md:text-[14px] text-[#b0b0b0] line-through">
+            <p className="pr-3 text-[8px] md:text-[14px] text-[#b0b0b0] line-through">
               Rp{TProduct.beforePrice}
             </p>
           ) : (

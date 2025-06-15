@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const Gallery = () => {
   return (
-    <div className="flex flex-col items-center justify-center my-8 md:my-14">
+    <div className="hidden md:flex flex-col items-center justify-center my-8 md:my-14">
       <div className="flex flex-col items-center justify-center">
         <p className="md:text-[20px] md:font-semibold text-[#616161]">
           Share your setup with
