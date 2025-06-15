@@ -1,0 +1,266 @@
+[
+  {
+    "productId": "product-001",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  The Syltherine chair blends modern design with vintage elegance. A perfect addition to any stylish interior."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Stainless Steel, PU Leather",
+          "Weight: 18 kg",
+          "Warranty: 2 Years"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R301",
+            "productId": "SS003",
+            "user": "Tania R.",
+            "rating": 5,
+            "comment": "Looks stunning and feels very sturdy."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-002",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  Leviosa is a lightweight yet durable cafe chair with sleek curves for modern decor."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Polypropylene, Metal",
+          "Size: Standard",
+          "Warranty: 1 Year"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R401",
+            "productId": "SS004",
+            "user": "Nahid K.",
+            "rating": 4,
+            "comment": "Good for casual seating. Nice shape."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-003",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  Respira is perfect for outdoor hangouts. Comes with matching bar stools and a solid weather-resistant surface."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Aluminum Frame, Wood Top",
+          "Set Includtrong> 1 Table + 2 Stools",
+          "Warranty: 1 Year"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R501",
+            "productId": "SS005",
+            "user": "Rayhan A.",
+            "rating": 4,
+            "comment": "Looks great on our balcony!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-004",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  The Grifo lamp brings warm ambient light into any room with its clean, simple design."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Wood Base, Linen Shade",
+          "Bulb Tytrong> E27 (Not Included",
+          "Warranty: 6 Months"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R601",
+            "productId": "SS006",
+            "user": "Sadia N.",
+            "rating": 5,
+            "comment": "Perfect bedside lamp!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-005",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  Muggo is a compact mug with a cozy grip, ideal for enjoying your morning coffee or tea."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Ceramic",
+          "Capacity: 300ml",
+          "Microwave Satrong> Yes"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R701",
+            "productId": "SS007",
+            "user": "Rafi M.",
+            "rating": 5,
+            "comment": "Very comfortable to hold and well made."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-006",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  Pingky bed set includes a soft mattress and supportive headboard with a modern touch."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Engineered Wood, Upholstery",
+          "Size: Queen",
+          "Warranty: 3 Years"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R801",
+            "productId": "SS008",
+            "user": "Ayesha K.",
+            "rating": 4,
+            "comment": "Stylish and very comfortable for sleeping."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-007",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  Potty is a minimalist flower pot designed to complement both indoor and outdoor aesthetics."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: Concrete Blend",
+          "Diameter: 18cm",
+          "Warranty: 1 Year"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R901",
+            "productId": "SS009",
+            "user": "Mizan U.",
+            "rating": 5,
+            "comment": "Simple yet elegant. Love the texture."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "productId": "product-008",
+    "tabs": [
+      {
+        "title": "Description",
+        "img": [
+          "https://i.ibb.co/5yx2PxZ/Image-1.png",
+          "https://i.ibb.co/0RdT5jbg/Image-4.png"
+        ],
+        "content": "  Dazio is a versatile side table with storage space — ideal for living rooms or bedrooms."
+      },
+      {
+        "title": "Additional Information",
+        "content": [
+          "Material: MDF with Veneer Finish",
+          "Dimensions: 45cm x 45cm x 50cm",
+          "Warranty: 2 Years"
+        ]
+      },
+      {
+        "title": "Reviews",
+        "reviews": [
+          {
+            "reviewId": "R1001",
+            "productId": "SS010",
+            "user": "Rubel H.",
+            "rating": 4,
+            "comment": "Good value for money and looks great."
+          }
+        ]
+      }
+    ]
+  }
+]

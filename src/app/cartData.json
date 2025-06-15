@@ -1,0 +1,84 @@
+[
+  {
+    "id": "product-001",
+    "title": "Syltherine",
+    "price": " 2500.000",
+    "img": "https://i.ibb.co/5yx2PxZ/Image-1.png",
+    "quantity": 1,
+    "material": "pure wood",
+    "rating": 4.7,
+    "reviewCount": 250,
+    "comment": "Looks stunning and feels very sturdy.",
+    "general": {
+      "socialPackage": "1 section sofa",
+      "modelNo": "TFCBLIGRBL6SRHS",
+      "secondaryMaterial": "solid wood",
+      "configuration": "l-shaped",
+      "upholsteryMaterial": "fabric + cotton",
+      "upholsteryColor": "bright Grey & Lion"
+    },
+    "product": {
+      "fillingMaterial": "foam",
+      "finishType": "bright Grey & Lion",
+      "adjustableHeadrest": "no",
+      "maximumLoadCapacity": "280",
+      "originOfManufacture": "bangladesh"
+    },
+    "Dimensions": {
+      "width": "265.32",
+      "height": "76",
+      "depth": "167.76",
+      "weight": "45",
+      "seatHeight": "41.52",
+      "legHeight": "546"
+    },
+    "warranty": {
+      "warrantySummary": "1 Year Manufacturing Warranty",
+      "warrantyServiceType": "For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com",
+      "coveredInWarranty": "Warranty Against Manufacturing Defect",
+      "notCoveredInWarranty": "The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.",
+      "domesticWarranty": "1 year"
+    }
+  },
+  {
+    "id": "product-002",
+    "title": "Leviosa",
+    "price": " 2500.000",
+    "img": "https://i.ibb.co/pBMRR3BN/image-2.png",
+    "quantity": 1,
+    "material": "pure wood",
+    "rating": 4.2,
+    "reviewCount": 220,
+    "comment": "Looks stunning and feels very sturdy.",
+    "general": {
+      "socialPackage": "1 Three Seater, 2 Single Seater",
+      "modelNo": "DTUBLIGRBL568",
+      "secondaryMaterial": "solid wood",
+      "configuration": "l-shaped",
+      "upholsteryMaterial": "fabric + cotton",
+      "upholsteryColor": "bright Grey & Lion"
+    },
+    "product": {
+      "fillingMaterial": "matte",
+      "finishType": "bright Grey & Lion",
+      "adjustableHeadrest": "yes",
+      "maximumLoadCapacity": "300",
+      "originOfManufacture": "bangladesh"
+    },
+    "Dimensions": {
+      "width": "265.32",
+      "height": "76",
+      "depth": "167.76",
+      "weight": "65",
+      "seatHeight": "41.52",
+      "legHeight": "546"
+    },
+    "warranty": {
+      "warrantySummary": "1.2 Year Manufacturing Warranty",
+      "warrantyServiceType": "For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com",
+      "coveredInWarranty": "Warranty of the product is limited to manufacturing defects only.",
+      "notCoveredInWarranty": "The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear In The Natural Course Of Product Usage.",
+      "domesticWarranty": "3 month"
+    }
+  }
+]
