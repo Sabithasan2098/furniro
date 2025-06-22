@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
   );
   return (
     <div className="max-w-[1400px] mx-auto">
-      <div className="navbar bg-white text-black shadow-sm md:fixed z-10 max-w-[1400px] mx-auto">
+      <div className="navbar bg-white text-black shadow-sm max-w-[1400px] mx-auto p-0 lg:h-[100px]">
         <div className="navbar-start">
           <div className="relative lg:hidden">
             <div
@@ -79,15 +79,17 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-12">{nav}</ul>
+          <ul className="menu menu-horizontal px-1 gap-12 text-[16px] font-medium">
+            {nav}
+          </ul>
         </div>
         <div className="navbar-end">
-          <ul className="flex  gap-2 md:gap-8 justify-center items-center list-none pr-5 md:pr-14">
+          <ul className="flex  gap-4 md:gap-[45px] justify-center items-center list-none pr-5 md:pr-8 lg:pr-[100px] h-7">
             <li>
               <Link href={"/"}>
                 {" "}
                 <Image
-                  className="h-[14px] w-4 md:h-[18px] md:w-5"
+                  className="h-[14px] w-4 md:h-7 md:w-7"
                   src={image3}
                   alt="nav_menu_btn"
                 ></Image>{" "}
@@ -97,7 +99,7 @@ const Navbar: React.FC = () => {
               <Link href={"/"}>
                 {" "}
                 <Image
-                  className="h-4 w-4 md:h-5 md:w-5"
+                  className="h-4 w-4 md:h-7 md:w-7"
                   src={image1}
                   alt="nav_menu_btn"
                 ></Image>{" "}
@@ -107,7 +109,7 @@ const Navbar: React.FC = () => {
               <Link href={"/"}>
                 {" "}
                 <Image
-                  className="h-4 w-4 md:h-[22px] md:w-[22px]"
+                  className="h-4 w-4 md:h-8 md:w-[30px]"
                   src={image4}
                   alt="nav_menu_btn"
                 ></Image>{" "}
