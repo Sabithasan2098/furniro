@@ -7,11 +7,11 @@ import Image from "next/image";
 const Browse: React.FC = () => {
   return (
     <div className="text-center max-w-[1200px] mx-auto">
-      <div className="my-7 md:my-14">
-        <h1 className="text-[26px] md:text[40px] font-semibold md:font-bold text-[#333333]">
+      <div className="my-7 md:my-[56px]">
+        <h1 className="text-[26px] md:text[32px] font-semibold md:font-bold text-[#333333]">
           Browse The Range
         </h1>
-        <p className="text-[16px] md:text-[20px] text-[#666666]">
+        <p className="text-[16px] md:text-[20px] font-normal text-[#666666]">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
       </div>

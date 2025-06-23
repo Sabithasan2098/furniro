@@ -9,7 +9,8 @@ const Banner: React.FC = () => {
         src={banner}
         alt="banner_image"
         width={1440}
-        className=" lg:h-[717px]"
+        height={717}
+        className=" object-cover"
       />
       <div className="hidden lg:flex">
         <div className="bg-[#fff3e3] rounded-md w-[623px] h-[443px] pl-[41px] pr-[43px] pt-[62px] pb-[37px] absolute top-[153px] right-[58px] shrink-0">
