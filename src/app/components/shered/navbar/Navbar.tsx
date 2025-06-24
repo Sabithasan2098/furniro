@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
               <Link href={"/"}>
                 {" "}
                 <Image
-                  className="h-[14px] w-4 md:h-7 md:w-7"
+                  className="h-[14px] w-4 md:h-5 md:w-6"
                   src={image3}
                   alt="nav_menu_btn"
                 ></Image>{" "}
@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
               <Link href={"/"}>
                 {" "}
                 <Image
-                  className="h-4 w-4 md:h-7 md:w-7"
+                  className="h-4 w-4 md:h-5 md:w-5"
                   src={image1}
                   alt="nav_menu_btn"
                 ></Image>{" "}
@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
               <Link href={"/"}>
                 {" "}
                 <Image
-                  className="h-4 w-4 md:h-8 md:w-[30px]"
+                  className="h-4 w-4 md:h-6 md:w-6"
                   src={image4}
                   alt="nav_menu_btn"
                 ></Image>{" "}

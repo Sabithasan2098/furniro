@@ -25,7 +25,7 @@ const CartDrawer = () => {
         <Image
           src={image2}
           alt="product"
-          className="h-[14px] w-4 md:h-7 md:w-7"
+          className="h-[14px] w-4 md:h-[22px] md:w-[21px]"
         />
       </button>
 
